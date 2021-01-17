@@ -3,7 +3,8 @@ body{
 }
 
 .status-bar{
-    /*position: fixed;*/
+    position: fixed;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -14,13 +15,13 @@ body{
     position: relative;
 }
 
+.status-bar__column .fa-signal{
+    margin-right: 5px;
+}
+
 .status-bar:first-child{
     display: flex;
     justify-content: center;
-}
-
-.status-bar__column .fa-signal{
-    margin-right: 5px;
 }
 
 .status-bar:nth-child(2){
