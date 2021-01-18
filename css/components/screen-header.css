@@ -17,3 +17,16 @@
 .screen-header__notification{
     position: relative;
 }
+
+@keyframes rotateCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(720deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover{
+    animation: rotateCog 2s linear infinite;
+}
